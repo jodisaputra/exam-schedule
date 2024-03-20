@@ -3,6 +3,7 @@
 use App\Http\Controllers\ClassroomController;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\MajorController;
+use App\Http\Controllers\StudentController;
 use App\Http\Controllers\TeacherController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,3 +19,4 @@ Route::resource('/teacher', TeacherController::class);
 Route::resource('/major', MajorController::class);
 Route::resource('/course', CourseController::class);
 Route::resource('/classroom', ClassroomController::class);
+Route::resource('/student', StudentController::class);
