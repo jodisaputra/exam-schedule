@@ -22,8 +22,8 @@
                                     style="height: 70px;">Courses</a>
                             </div>
                             <div class="col-4 mt-3">
-                                <a href="" class="btn btn-primary d-flex justify-content-center align-items-center"
-                                    style="height: 70px;">Teachers</a>
+                                <a href="{{ route('classroom.index') }}" class="btn btn-primary d-flex justify-content-center align-items-center"
+                                    style="height: 70px;">Classrooms</a>
                             </div>
                         </div>
                     </div>
